@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "beanie-test"
+version = "0.1.0"
+description = ""
+authors = ["kyohoonsim <kyohoonsim@gmail.com>"]
+readme = "README.md"
+packages = [{include = "beanie_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+beanie = "^1.16.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
